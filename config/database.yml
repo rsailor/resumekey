@@ -6,16 +6,19 @@
 #
 default: &default
   adapter: postgresql
-  database: [YOUR_DATABASE_NAME]
+  pool: 5
+  username: resumekey
+  password: hippo1
 
 development:
   <<: *default
-  host: localhost
+  database: resumekey_development
 
 test:
   <<: *default
-  database: db/test.sqlite3
+  database: resumekey_test
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  pool: 5
+  database: resumekey_production
