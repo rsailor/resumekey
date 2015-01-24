@@ -12,6 +12,6 @@ class ResumesController < ApplicationController
   end
 
   def show
-
+    @resume = Resume.find(params[:id])
   end
 end
