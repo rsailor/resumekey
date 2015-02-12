@@ -1,0 +1,7 @@
+= form_for @resume do |f|
+  = f.fields_for :resume_body do |resume_body_f|
+    = resume_body_f.label :text
+    = resume_body_f.text_area :text
+  = f.label :job_posting_text
+  = f.text_area :job_posting_text
+  = f.submit "Identify Keywords"

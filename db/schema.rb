@@ -11,9 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150201215236) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "resume_bodies", force: true do |t|
+    t.text     "text"
+    t.integer  "resume_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "resumes", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
