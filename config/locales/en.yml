@@ -21,3 +21,7 @@
 
 en:
   hello: "Hello world"
+  pages:
+    new:
+      resume_text_label: "Paste Your Resume Here"
+      job_text_label: "Paste the Job Description Here"

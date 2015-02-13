@@ -24,8 +24,13 @@ group :development, :test do
   gem 'pry-remote'
   gem 'pry-stack_explorer'
   gem 'pry-byebug'
-  gem 'rspec-rails'
   gem 'thin'
+end
+
+group :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'nyan-cat-formatter'
 end
 
 gem 'sdoc', '~> 0.4.0',          group: :doc

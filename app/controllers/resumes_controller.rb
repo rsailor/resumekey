@@ -7,9 +7,7 @@ class ResumesController < ApplicationController
   end
 
   def create
-    binding.pry
     @resume = Resume.new(resume_params)
-    # ....
     @resume.save
     respond_with @resume
   end
