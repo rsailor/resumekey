@@ -1,5 +1,6 @@
 class ResumesController < ApplicationController
   respond_to :html
+  responders :flash
 
   def new
     @resume = Resume.new

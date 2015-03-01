@@ -25,3 +25,8 @@ en:
     new:
       resume_text_label: "Paste Your Resume Here"
       job_text_label: "Paste the Job Description Here"
+  attr_names:
+    resume:
+      job_posting_text: "Job Text"
+      resume_body:
+        text: "Resume Text"
