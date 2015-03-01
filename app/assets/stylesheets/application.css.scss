@@ -11,6 +11,7 @@
  * file per style scope.
  */
 
+@import "bootstrap_variables";
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "*";
+@import "resumekey/*";

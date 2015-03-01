@@ -11,6 +11,7 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'slim'
 gem 'therubyracer',  platforms: :ruby
 gem 'uglifier', '>= 1.3.0'
+gem 'words_counted'
 
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
@@ -31,6 +32,8 @@ group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'nyan-cat-formatter'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
 end
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
