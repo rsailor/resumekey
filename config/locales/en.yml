@@ -23,6 +23,11 @@ en:
   hello: "Hello world"
   pages:
     new:
+      heading: "Optimize Your Resume and Get Past Industry Filters"
+      body: |
+        ResumeKey compares your resume and job postings, identifies
+        potential keywords your hiring managers are looking for, and helps
+        you incorporate these keywords into your resume.
       resume_text_label: "Paste Your Resume Here"
       job_text_label: "Paste the Job Description Here"
   attr_names:
