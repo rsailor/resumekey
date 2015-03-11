@@ -7,3 +7,30 @@
     width: 100%;
   }
 }
+
+header {
+  padding: 15px;
+  background: white;
+  box-shadow: 0 1px 3px 0 #999;
+  h1 {
+    margin: 0;
+  }
+}
+
+
+h1, .h1 {
+  color: $brand-primary;
+}
+
+h2, .h2 {
+  color: #555;
+}
+
+h3, .h3 {
+  color: #666;
+  font-weight: 400;
+}
+
+h4, .h4 {
+  color: $brand-primary;
+}
