@@ -34,6 +34,7 @@ group :test do
   gem 'nyan-cat-formatter'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
+  gem 'capybara-webkit'
 end
 
 gem 'sdoc', '~> 0.4.0',          group: :doc

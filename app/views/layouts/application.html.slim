@@ -10,3 +10,4 @@ html
     = render_flash_messages
     .container
       = yield
+    = yield :scripts if content_for? :scripts

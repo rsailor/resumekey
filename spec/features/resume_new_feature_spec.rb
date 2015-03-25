@@ -8,7 +8,14 @@ describe "New Resume Spec" do
     click_on "Identify Keywords"
   end
 
-  it "redirects to show page of new resume" do
+  it "a popup appears", js: true do
+    expect(page).to have_selector '.modal'
+  end
+
+  it "submits the form after 5 seconds", js: true do
+    sleep 4
+    expect(current_path).to eq "/"
+    sleep 1
     expect(current_path).to eq "/resumes/1"
   end
 
