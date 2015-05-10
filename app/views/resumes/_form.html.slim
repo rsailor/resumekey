@@ -15,10 +15,9 @@
 button.btn.btn-primary.center-block data-toggle="modal" data-target="#working-indicator"
   | Identify Keywords
 
-.modal id="working-indicator"
+.modal id="working-indicator" class="bigmodal"
   .modal-dialog
     .modal-content
-      .modal-header Resume Key
       .modal-body
         p Analyzing Your Resume and Job Description...
 
@@ -29,4 +28,4 @@ button.btn.btn-primary.center-block data-toggle="modal" data-target="#working-in
       $("#working-indicator").on 'show.bs.modal', () ->
         setTimeout( () ->
           $('form').submit()
-        , 5000)
+        , 1000000)
